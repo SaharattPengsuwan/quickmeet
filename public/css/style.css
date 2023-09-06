@@ -38,22 +38,25 @@ img {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #c61951;
+  
 }
 
 navbar .logo {
-  font-size: 28px;
-  color: #393e46;
+  font-size: 55px;
+  color: #ffffff;
   font-weight: bold;
-  padding: 0 12%;
-  margin-top: 32px;
+  padding: 0 38%;
+  margin-top: 60px;
+  
 }
 
 .main {
   display: flex;
   padding: 0 12%;
-  margin-top: 20vh;
+  margin-top: 10vh;
   width: 100%;
+  
 }
 .main .create-join {
   width: 85%;
@@ -62,31 +65,31 @@ navbar .logo {
 .main .create-join .text .head {
   font-size: 36px;
   font-weight: bold;
-  color: #393e46;
+  color: #000000;
 }
 .main .create-join .text .subtext {
   font-size: 24px;
-  color: #6f6f6f;
+  color: #000000;
   margin-top: 10px;
 }
 .main .create-join .createroom-butt {
   width: 100%;
-  margin-top: 60px;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: #4ecca3;
-  color: white;
-  text-align: center;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  border: 2px solid #4ecca3;
-  transition: 0.3s;
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    transition: 0.3s;
 }
 .main .create-join .createroom-butt:hover {
   background-color: white;
-  border: 2px solid #4ecca3;
-  color: #4ecca3;
+  border: 2px solid #741938;
+  color: #741938;
   cursor: pointer;
 }
 .main .create-join .createroom-butt:focus {
@@ -112,36 +115,36 @@ navbar .logo {
   width: 100%;
   margin-top: 30px;
   font-size: 24px;
-  color: #393e46;
+  color: #000000;
   text-align: center;
   padding: 10px 0;
   border: none;
-  border-bottom: 3px solid #232931;
-  border-top: 2px solid white;
+  border-radius: 10px;
+  border: 2px solid #000000;
   font-weight: bold;
 }
-.main .create-join .roomcode:focus {
-  background-color: white;
-  border: 0;
-  border-bottom: 3px solid #232931;
-  border-top: 2px solid white;
-  outline: none;
-  border-radius: 0;
-}
-.main .create-join .roomcode-error {
-  border-bottom: 3px solid #d31c1c;
-}
+
+
 .main .create-join .joinroom {
+  width: 40%;
   margin-top: 20px;
-  width: 100%;
-  text-align: right;
+  margin-left: 31%;
   font-size: 24px;
   font-weight: bold;
-  color: #232931;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  transition: 0.3s;
 }
 .main .create-join .joinroom:hover {
+  background-color: white;
+  border: 2px solid #741938;
+  color: #741938;
   cursor: pointer;
-  text-decoration: underline;
 }
 .main .video-cont {
   width: 100%;
@@ -161,13 +164,13 @@ navbar .logo {
   width: 100px;
 }
 .main .video-cont .settings .device {
-  background-color: #4ecca3;
+  background-color: #741938;
   border-radius: 100px;
   padding: 10px;
   width: 40px;
   height: 40px;
   margin-right: 10px;
-  color: white;
+  color: #000000;
 }
 .main .video-cont .settings .device:hover {
   background-color: #393e46;
@@ -210,12 +213,15 @@ navbar .logo {
   height: 100%;
   width: 100%;
   background-color: #393e46;
+  background-image: url("li.jpg");
+  background-size: cover; /* ปรับขนาดรูปภาพให้เต็มพื้นหลัง */
+  background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
 }
 .overlay .box {
   width: 25%;
   margin: 0 auto;
   height: 200px;
-  background-color: #ffffff;
+  background: linear-gradient(to bottom, red, gold);
   margin-top: 100px;
   border-radius: 10px;
   text-align: center;
@@ -223,7 +229,7 @@ navbar .logo {
 .overlay .box .head-name {
   padding-top: 20px;
   text-align: center;
-  color: #393e46;
+  color: #ffffff;
   font-weight: bold;
 }
 .overlay .box .name-field {
@@ -233,9 +239,11 @@ navbar .logo {
   font-weight: bold;
   padding: 10px;
   width: 90%;
-  border-bottom: 3px solid #4ecca3;
+  border: 3px solid #741938;
   color: #393e46;
   height: 40px;
+  border-radius: 10px;
+  
 }
 .overlay .box .name-field:focus {
   outline: none;
@@ -246,7 +254,7 @@ navbar .logo {
   margin-top: 30px;
   color: #ffffff;
   font-weight: bold;
-  background-color: #4ecca3;
+  background-color: #741938;
   padding: 12px 20px;
   border-radius: 10px;
   transition: opacity 0.5s;
@@ -265,6 +273,7 @@ navbar .logo {
   bottom: 0;
   display: flex;
   background-color: #ecf0f1;
+  
   /* Track */
   /* Handle */
   /* Handle on hover */
@@ -283,7 +292,7 @@ navbar .logo {
 }
 .container-room .left-cont {
   width: 80%;
-  background-color: #393e46;
+  background-color: #c61951;
   height: 100vh;
   padding: 50px;
   text-align: center;
@@ -291,6 +300,7 @@ navbar .logo {
 }
 .container-room .left-cont .whiteboard-cont {
   height: 85vh;
+  
   width: 100%;
   position: absolute;
   left: 0;
@@ -298,6 +308,7 @@ navbar .logo {
   padding: 50px;
   padding-bottom: 0;
   min-height: 600px;
+
 }
 .container-room .left-cont .whiteboard-cont #whiteboard {
   background-color: white;
@@ -532,15 +543,15 @@ navbar .logo {
   display: flex;
   margin-top: 50px;
   width: 260px;
-  background-color: #ffffff;
+  background-color: #c61951;
   border-radius: 10px;
   padding: 10px;
   justify-content: center;
 }
 .container-room .left-cont .footer .utils .audio {
-  background-color: #4ecca3;
+  background-color: #741938;
   text-align: center;
-  color: white;
+  color: #000000;
   padding: 10px;
   height: 40px;
   width: 40px;
@@ -552,10 +563,10 @@ navbar .logo {
   background-color: #393e46;
 }
 .container-room .left-cont .footer .utils .novideo {
-  background-color: #4ecca3;
+  background-color: #741938;
   text-align: center;
   margin-left: 10px;
-  color: white;
+  color: #000000;
   padding: 10px;
   height: 40px;
   width: 40px;
@@ -567,10 +578,10 @@ navbar .logo {
   background-color: #393e46;
 }
 .container-room .left-cont .footer .utils .screenshare {
-  background-color: #d8d8d8;
+  background-color: #741938;
   text-align: center;
   margin-left: 10px;
-  color: #393e46;
+  color: #000000;
   padding: 10px;
   height: 40px;
   width: 40px;
@@ -584,9 +595,9 @@ navbar .logo {
   background-color: #393e46;
 }
 .container-room .left-cont .footer .utils .board-icon {
-  background-color: #d8d8d8;
+  background-color: #741938;
   text-align: center;
-  color: #393e46;
+  color: #000000;
   margin-left: 10px;
   padding: 10px;
   height: 40px;
@@ -622,10 +633,10 @@ navbar .logo {
   display: flex;
 }
 .container-room .left-cont .footer .copycode-cont .roomcode {
-  color: #4ecca3;
+  color: #741938;
   padding: 10px 20px;
   background-color: white;
-  border-bottom: 3px solid #4ecca3;
+  border-bottom: 3px solid #741938;
   font-weight: bold;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -635,7 +646,7 @@ navbar .logo {
   width: 100px;
   text-align: center;
   color: white;
-  background-color: #4ecca3;
+  background-color: #741938;
   border: none;
   font-weight: bold;
   outline: none;
@@ -650,7 +661,7 @@ navbar .logo {
 }
 .container-room .right-cont {
   width: 30%;
-  background-color: #ffffff;
+  background-color: #f64662;
   height: 100vh;
   /* Track */
   /* Handle */
@@ -683,14 +694,16 @@ navbar .logo {
   width: 100%;
   text-align: center;
   transition: background-color 0.5s;
+  background-color: #741938;
+  color: #ffffff;
 }
 .container-room .right-cont .head-title .chats:hover,
 .container-room .right-cont .head-title .attendies:hover {
-  background-color: #f8f8f8;
+  background-color: #56132a;
   cursor: pointer;
 }
 .container-room .right-cont .chat-cont {
-  background-color: #ffffff;
+  background-color: #56132a;
   height: 84vh;
   padding: 10px;
   padding-top: 10px;
@@ -699,7 +712,7 @@ navbar .logo {
 .container-room .right-cont .chat-cont .message {
   margin-bottom: 15px;
   margin-left: 10px;
-  background-color: #ffffff;
+  background-color: #c61951;
   border-radius: 2px;
   word-break: break-all;
   word-wrap: break-word;
@@ -710,20 +723,25 @@ navbar .logo {
 }
 .container-room .right-cont .chat-cont .message .info .username {
   font-weight: bold;
-  color: #4ecca3;
+  color: #56132a;
+  margin-left: 10px;
 }
 .container-room .right-cont .chat-cont .message .info .time {
   margin-left: 12px;
+  color: #56132a;
 }
 .container-room .right-cont .chat-cont .message .content {
   margin-top: 5px;
   font-size: 0.9rem;
+  margin-left: 10px;
+  color: #ffffff;
+  
 }
 .container-room .right-cont .chat-input-cont {
   padding: 12px;
   display: flex;
   height: 60px;
-  background-color: #ffffff;
+  background-color: #741938;
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.15);
 }
 .container-room .right-cont .chat-input-cont .ci-cont {
@@ -736,11 +754,12 @@ navbar .logo {
 .container-room .right-cont .chat-input-cont .chat-input {
   width: 100%;
   height: 36px;
+  background-color: #741938;
   font-size: 0.85rem;
   padding: 4px 10px;
   border: none;
-  border-bottom: 3px solid #4ecca3;
-  color: #393e46;
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
 }
 .container-room .right-cont .chat-input-cont .chat-input:focus {
   outline: none;
@@ -749,8 +768,8 @@ navbar .logo {
   height: 36px;
   padding: 5px 20px;
   border: none;
-  background-color: white;
-  color: #4ecca3;
+  background-color: #741938;
+  color: #ffffff;
   font-weight: bold;
   font-size: 0.85rem;
   border-radius: 2px;
